@@ -12,7 +12,7 @@ public class LazySingleton {
     }
 
     private LazySingleton(){
-        System.out.println("LazySingleton Instance Created.");
+        System.out.println("LazySingleton instance is created.");
     }
 
     public static final LazySingleton getInstance() {

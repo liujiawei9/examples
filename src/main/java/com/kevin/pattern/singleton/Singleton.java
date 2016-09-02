@@ -8,7 +8,9 @@ public class Singleton {
 
     private static final Singleton INSTANCE = new Singleton();
 
-    private Singleton(){}
+    private Singleton(){
+        System.out.println("Singleton instance is created.");
+    }
 
     public static Singleton getInstance(){
         return INSTANCE;
