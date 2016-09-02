@@ -1,7 +1,7 @@
 package com.kevin.pattern.singleton;
 
 /**
- * Get the instance when the variable is initialized
+ * Create the instance when the variable is initialized
  * Created by Kevin on 2016/9/1.
  */
 public class Singleton {
